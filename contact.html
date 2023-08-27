@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kea-Restaurant</title>
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <header>
+        <H1>Restaurant KEA </H1>
+        <nav class="menu1">
+           <ul>
+            <li class="home"><a href="index.html"> HOME </a></li>
+            <li class="menu"><a href="menu.html"> MENU </a></li>
+            <li class="contact"><a href="contact.html">CONTACT </a></li>
+           </ul> 
+        </nav>
+    </header>
+
+    <main id="main_contac">
+        <section class="contact_info">
+            <p>Guldbergsgade 29N 2200 Copenhagen</p>
+            <p>Phone no.: 20 82 53 70</p>
+            <p>E-mail: <a href="info@restaurantkea.dk" ><i>info@restaurantkea.dk</i></p></a><br><br>
+        </section>
+        <section class="retaurant_location">
+            <img class="locationkea" src="/imgs/map.jpg" alt="location">
+        </section>
+        <h1> Contac form </h1>
+         <!-- restaurant contact form-->
+    <section class="contact-form">
+        <form id="form-contac" action=""
+        >
+            <label for="">Name</label><br>
+            <input name="" type="text" name="person-name" id="Name" maxlength="15" required><br>
+            <label for="last-name">Last name</label><br>
+            <input name="" type="text" name="person-name" id="Name" maxlength="15" required><br>
+            <label for="telephone" >Phone No.</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required maxlength="8"/><br>
+            <label for="email">E-mail</label>
+            <br> 
+            <input type="email"  id="email" name="email" required maxlength="20"><br> 
+          
+            <label for="message">Your message</label><br>
+            <button> submit</button><br>
+           
+        </form><textarea rows="8" cols="20" name="comment" form="usrform">please enter your message here </textarea>
+          
+</section>
+</main>
+<hr>
+<footer id="footer">
+    <section class="footer_contact">
+      <p>©2023 KEA</p>  
+    </section>
+</footer>
+
+</body>
+</html>
